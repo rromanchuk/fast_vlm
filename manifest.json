@@ -86,6 +86,36 @@
           "recommended": true
         }
       }
+    },
+    {
+      "base_name": "apple/FastVLM-7B-int4",
+      "base_filename": "FastVLM-7B-int4",
+      "author": "Apple",
+      "license": "Apple-AMLR", 
+      "source": "https://huggingface.co/apple/FastVLM-7B-int4",
+      "description": "FastVLM is a vision-language model from Apple that excels at visual question answering and image classification tasks. It supports both zero-shot classification and open-ended VQA with customizable prompts.",
+      "tags": [
+        "vision-language",
+        "vqa",
+        "multimodal",
+        "transformers",
+        "torch",
+        "mlx"
+      ],
+      "date_added": "2025-09-02",
+      "requirements": {
+        "packages": [
+          "torch",
+          "transformers"
+        ],
+        "cpu": {
+          "support": true
+        },
+        "gpu": {
+          "support": true,
+          "recommended": true
+        }
+      }
     }
   ]
 }
