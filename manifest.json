@@ -106,7 +106,8 @@
       "requirements": {
         "packages": [
           "torch",
-          "transformers"
+          "transformers",
+          "mlx-vlm"
         ],
         "cpu": {
           "support": true
